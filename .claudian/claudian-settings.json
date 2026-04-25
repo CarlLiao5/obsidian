@@ -1,0 +1,69 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "claude-haiku-4-5-20251001",
+  "thinkingBudget": "low",
+  "effortLevel": "low",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": false,
+      "enableChrome": false,
+      "enableBangBash": true,
+      "enableOpus1M": false,
+      "enableSonnet1M": false,
+      "customModels": "claude-haiku-4-5-20251001",
+      "lastModel": "sonnet",
+      "environmentVariables": "PATH=C:\\Users\\Administrator\\.local\\bin;C:\\Program Files\\nodejs\\;E:\\Git\\bin;E:\\Git\\usr\\bin;%PATH%\nCLAUDE_CODE_GIT_BASH_PATH=E:\\Git\\bin\\bash.exe\nANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top\nANTHROPIC_API_KEY=sk-tp8FiOCiJhTUTQHAc6PV3GMxyFXZ7p7x6BcALhcKJ1BCMn1i",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top"
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethodsByHost": {
+        "DESKTOP-EAMR8N1": "native-windows"
+      },
+      "wslDistroOverridesByHost": {}
+    }
+  },
+  "settingsProvider": "claude",
+  "savedProviderModel": {
+    "claude": "claude-haiku-4-5-20251001"
+  },
+  "savedProviderEffort": {
+    "claude": "low"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {
+    "claude": "low"
+  },
+  "lastCustomModel": "claude-haiku-4-5-20251001",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "openInMainTab": false,
+  "hiddenProviderCommands": {}
+}
