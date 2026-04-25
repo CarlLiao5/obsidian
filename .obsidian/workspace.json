@@ -11,14 +11,14 @@
             "id": "e62d095c11b2b47f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Excel 2026-04-21 10.18.55.univer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Excel 2026-04-21 10.18.55.univer"
             }
           }
         ]
@@ -198,6 +198,10 @@
   },
   "active": "e62d095c11b2b47f",
   "lastOpenFiles": [
+    "Onboarding-Guide--New-Employee-Training.pdf",
+    "Pasted image 20260422172918.png",
+    "walmart-connect-advertising-solutions-overview.md",
+    "WFS货件差异索赔SOP.md",
     "schema/AGENTS.md",
     "schema/llm-wiki.md"
   ]
