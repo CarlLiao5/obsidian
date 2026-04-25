@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 国际卖家（International Sellers）
 
 > 非美国境内卖家使用 WFS 的特殊要求与常见问题解答。

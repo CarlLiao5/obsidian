@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Shipping templates: Assign SKUs
 
 > 将 SKU 分配到您的配送模板

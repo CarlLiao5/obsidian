@@ -2,8 +2,8 @@
   "userName": "",
   "permissionMode": "yolo",
   "model": "claude-haiku-4-5-20251001",
-  "thinkingBudget": "low",
-  "effortLevel": "low",
+  "thinkingBudget": "off",
+  "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -31,8 +31,8 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "customModels": "claude-haiku-4-5-20251001",
-      "lastModel": "sonnet",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top\nANTHROPIC_API_KEY=sk-tp8FiOCiJhTUTQHAc6PV3GMxyFXZ7p7x6BcALhcKJ1BCMn1i",
+      "lastModel": "haiku",
+      "environmentVariables": "PATH=C:\\Users\\Administrator\\.local\\bin;C:\\Program Files\\nodejs\\;E:\\Git\\bin;E:\\Git\\usr\\bin;%PATH%\nCLAUDE_CODE_GIT_BASH_PATH=E:\\Git\\bin\\bash.exe\nANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top\nANTHROPIC_API_KEY=sk-tp8FiOCiJhTUTQHAc6PV3GMxyFXZ7p7x6BcALhcKJ1BCMn1i\nCLAUDE_CODE_DISABLE_ADVISOR=1",
       "environmentHash": "ANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top"
     },
     "codex": {
@@ -54,11 +54,11 @@
     "claude": "claude-haiku-4-5-20251001"
   },
   "savedProviderEffort": {
-    "claude": "low"
+    "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "low"
+    "claude": "off"
   },
   "lastCustomModel": "claude-haiku-4-5-20251001",
   "maxTabs": 3,

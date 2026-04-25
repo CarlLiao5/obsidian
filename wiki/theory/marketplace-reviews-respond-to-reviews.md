@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Marketplace Reviews: Respond to Reviews
 
 > 如何访问评论并回复客户

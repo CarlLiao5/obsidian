@@ -1,3 +1,11 @@
+---
+author: 运营团队
+auditor: 待审核
+status: pending
+audit_date: null
+tags: [运营实践, 待审核]
+---
+
 # 案例研究：WFS 禁售误判 & 库存追踪丢失
 
 **案例编号**：WFS-2026-0422-001  

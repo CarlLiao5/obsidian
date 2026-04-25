@@ -1,3 +1,11 @@
+---
+author: 运营团队
+auditor: 待审核
+status: pending
+audit_date: null
+tags: [运营实践, 待审核]
+---
+
 # Sponsored Products CTR 下降诊断 SOP
 
 > 适用于自动/手动广告活动 CTR 从基线明显下滑时的系统性排查与修复流程。

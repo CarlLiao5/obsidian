@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 新卖家付款冻结政策（New Seller Payment Hold Policy）
 
 > 新卖家在建立销售历史和信誉之前经历的付款延迟机制。

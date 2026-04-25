@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Seller-fulfilled Inventory Management
 
 > 自配送库存管理 - 更新和管理卖家自行配送的库存

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Billing Dispute 账单争议处理
 
 > 通过 High Radius EIPP 门户对 Walmart 广告账单提出争议的操作指南。

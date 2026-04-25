@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 支付（Payments）
 
 > Walmart Marketplace 支付相关政策和报表，包括付款活动、结算单、退款保留和争议处理。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 订单管理故障排查（Order Management: Troubleshooting）
 
 > 欺诈订单、丢失订单、错误订单及争议订单的处理指南。

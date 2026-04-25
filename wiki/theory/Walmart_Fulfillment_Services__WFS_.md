@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Walmart 配送服务 (WFS - Walmart Fulfillment Services)
 
 > WFS（Walmart Fulfillment Services）完整知识库，类似 Amazon FBA 的沃尔玛自营仓储配送服务。

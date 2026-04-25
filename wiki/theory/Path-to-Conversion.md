@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 转化路径报告 (Path to Conversion)
 
 > 展示顾客从发现到购买的全渠道媒体旅程洞察报告。

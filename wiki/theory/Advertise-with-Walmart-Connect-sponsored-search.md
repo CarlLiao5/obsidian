@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Sponsored Search 广告 (Walmart Connect - Sponsored Search)
 
 > 在 Walmart.com 和 App 内通过关键词触发的付费点击广告，包括 Sponsored Products、Branded 和 Videos 三种形式。

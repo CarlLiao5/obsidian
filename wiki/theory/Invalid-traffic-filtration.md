@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 无效流量过滤方法
 
 > Sponsored Search 广告中无效流量（GIVT）过滤的指标定义和说明。

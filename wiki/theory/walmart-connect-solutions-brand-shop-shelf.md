@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Brand Shop and Shelf (Walmart Connect - Brand Shop and Shelf)
 
 > 在 Walmart.com 和 App 上的免费虚拟品牌店铺与品牌货架，品牌商可通过 Shop Builder 自建。

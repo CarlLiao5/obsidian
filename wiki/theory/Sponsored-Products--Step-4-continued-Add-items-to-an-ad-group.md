@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Step 4（续）— 添加商品到广告组 (Add Items to an Ad Group)
 
 > 将商品添加到广告组并设置出价（自动活动）或通过 CSV 上传批量添加。

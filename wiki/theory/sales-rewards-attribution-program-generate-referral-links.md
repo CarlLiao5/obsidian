@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 生成推荐链接 (Sales Rewards and Attribution - Generate Referral Links)
 
 > 在 Seller Center 中创建推荐活动、生成和管理追踪链接的完整指南。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 跨境进口（Walmart Cross Border Imports）
 
 > 从亚洲（中国/越南/印度）通过海运 FCL/LCL 发送库存到美国 WFS 仓库的完整指南。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 附加服务（WFS Programs & Services）
 
 > WFS 提供的一系列增值服务，包括首选承运商、Prep 服务和多渠道解决方案。

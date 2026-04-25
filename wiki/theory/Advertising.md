@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [广告, 官方文档, 知识库]
+---
+
 # 广告 (Advertising)
 
 > Walmart 广告解决方案知识库入口。

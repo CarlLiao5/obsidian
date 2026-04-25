@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 卖家论坛使用指南（Seller Forum: Overview）
 
 > Walmart Marketplace 卖家论坛——协作、提问、分享最佳实践的社区空间。

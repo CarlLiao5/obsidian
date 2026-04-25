@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 配送模板（Shipping Templates）
 
 > 配送模板用于定义不同地区、承运方式和运费规则，是设置卖家自配送商品运费的核心工具。

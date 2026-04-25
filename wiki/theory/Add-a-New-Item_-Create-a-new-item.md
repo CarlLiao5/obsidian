@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 创建新商品（Add a Single Item - Full Setup）
 
 > 在 Walmart.com 现有目录中创建新商品的完整流程。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品变体组（Product Variant Groups）概述
 
 > 将同一商品的不同规格（颜色/尺寸等）聚合到同一商品详情页的机制，提升客户选择体验和搜索可见性。

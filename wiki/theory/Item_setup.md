@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品设置 (Item Setup)
 
 > Walmart 商品上架前的完整配置知识库，涵盖内容标准、变体管理、汽车适配等。

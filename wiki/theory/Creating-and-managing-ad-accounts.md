@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 在 Walmart Connect Ad Center 中创建和管理广告账户
 
 > Super Admin 可以在组织内创建最多 5 个广告主账户，支持独立账单、计费结构和不同业务单元。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 配送方式（Shipping Methods）
 
 > Walmart Marketplace 提供五种配送方式：Value、Standard、TwoDay、OneDay 和 Freight，卖家可选择自配送或使用第三方仓储。

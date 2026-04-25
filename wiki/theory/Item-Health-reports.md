@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品健康报告 (Item Health Reports)
 
 > 监控推广商品健康状态，优化广告表现的工具。

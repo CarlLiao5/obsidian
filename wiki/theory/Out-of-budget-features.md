@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 超预算功能
 
 > 识别和解决每日/总预算耗尽（Out-of-budget）和预算风险（Budget-at-risk）问题。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Buy Box（购物车）机制
 
 > Walmart 商品页面上赢得优先展示位置的核心机制，是 SEM 和 Sponsored Search 广告资格的前置条件。

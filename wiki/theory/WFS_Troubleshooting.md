@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 故障排查（WFS Troubleshooting）
 
 > 解决 WFS 仓储配送相关的常见问题，包括入库问题、订单切换和商品 Feed 错误。

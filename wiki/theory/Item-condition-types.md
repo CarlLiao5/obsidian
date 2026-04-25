@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Item Condition Types
 
 > 了解 Walmart 支持的不同商品状况类型，以及如何为商品选择正确的状况。

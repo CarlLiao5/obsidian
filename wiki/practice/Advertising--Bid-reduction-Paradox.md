@@ -1,3 +1,11 @@
+---
+author: 运营团队
+auditor: 待审核
+status: pending
+audit_date: null
+tags: [运营实践, 待审核]
+---
+
 # 降 Bid 反效果案例分析
 
 > 真实案例：降 bid 后 Spend 反增 45%，ROAS 下降 22%——一个被算法反噬的典型场景。

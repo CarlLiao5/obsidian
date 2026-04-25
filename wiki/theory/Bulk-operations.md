@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 批量操作（Bulk Operations）
 
 > 使用 Excel/CSV 模板批量创建和管理 Sponsored Products 活动、广告组、商品和关键词。

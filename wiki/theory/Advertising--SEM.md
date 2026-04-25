@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 搜索营销 (SEM) — 搜索引擎营销
 
 > 通过 Google Shopping Ads 将 Walmart 商品推广到 Google 搜索结果页面的付费广告项目。

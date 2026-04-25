@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品设置错误排查（Troubleshoot Item Setup Errors）
 
 > 模板上传前验证和上传后验证的错误类型与解决方案。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 账单信息设置（WFS Settings: Billing Information）
 
 > 在 Seller Center 中添加和管理 WFS 账单支付方式（信用卡或 ACH 银行账户）。

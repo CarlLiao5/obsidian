@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Marketplace 卖家账单政策
 
 > Marketplace 卖家自助 Sponsored Search 和 Onsite Display 广告的账单管理说明。

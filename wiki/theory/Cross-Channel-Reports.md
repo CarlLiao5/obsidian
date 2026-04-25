@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 跨渠道报告 (Cross-Channel Reports)
 
 > Walmart Connect 跨渠道表现报告平台，整合 Sponsored Search、Display 等媒体数据。

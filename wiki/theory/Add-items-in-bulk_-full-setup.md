@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Add Items in Bulk: Full Setup
 
 > 使用电子表格模板批量添加新商品到 Walmart Marketplace 目录

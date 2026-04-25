@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 税务与支付设置（Taxes & Payments Settings）
 
 > 配置收款信息、税务信息和业务资料，确保账户财务设置完整。

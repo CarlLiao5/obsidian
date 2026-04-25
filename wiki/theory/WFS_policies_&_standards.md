@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 政策与标准（WFS Policies & Standards）
 
 > WFS 仓储配送的合规政策，包括禁售商品和危险品管理要求。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品设置故障排查（Item Setup Troubleshooting）
 
 > 解决商品上架过程中的常见错误：GTIN 错误、模板验证失败、变体组问题、集成错误等。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 库存管理（WFS Inventory Management）
 
 > WFS 库存查看、补货、出库、转移与移除的完整指南。

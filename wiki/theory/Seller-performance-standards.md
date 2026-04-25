@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 卖家绩效标准 (Seller Performance Standards)
 
 > Walmart Marketplace 对卖家的最低绩效要求，包括配送、取消率、退货率、负面反馈等关键指标。

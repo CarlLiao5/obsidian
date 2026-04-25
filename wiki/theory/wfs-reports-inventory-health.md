@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 库存健康报告（WFS Reports: Inventory Health）
 
 > 了解 WFS 库存水平、入库状态、在途库存与补货建议的核心工具。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 定价规则 (Pricing Rules)
 
 > Walmart Marketplace 的定价合规要求，禁止哄抬价格、价格操纵与不公平竞争行为。

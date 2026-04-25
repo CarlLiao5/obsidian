@@ -14,10 +14,10 @@
 
 ### 1. 双层知识架构
 
-| 层级 | 目录 | 来源 | 内容性质 |
-|------|------|------|----------|
-| **基础知识 (Theory)** | `wiki/theory/` | `raw/walmart guide/`、`raw/walmart advertising guide/` | 官方文档编译，纯陈述句，工具性 |
-| **运营方法论 (Practice)** | `wiki/practice/` | `raw/note/`、`raw/Product Research/` | 实战经验，重点"如何操作"、"策略选择"、"效果验证" |
+| 层级                   | 目录               | 来源                                                    | 内容性质                        |
+| -------------------- | ---------------- | ----------------------------------------------------- | --------------------------- |
+| **基础知识 (Theory)**    | `wiki/theory/`   | `raw/walmart guide/`、`raw/walmart advertising guide/` | 官方文档编译，纯陈述句，工具性             |
+| **运营方法论 (Practice)** | `wiki/practice/` | `raw/note/`、`raw/Product Research/`                   | 实战经验，重点"如何操作"、"策略选择"、"效果验证" |
 
 ### 2. 单向引用规则
 
@@ -54,28 +54,40 @@ walmart ZS/
 ├── raw/                              # 原始资料（只读，不修改）
 │   ├── walmart guide/                # Walmart 官方帮助文档 → wiki/theory/
 │   ├── walmart advertising guide/    # Walmart Connect 广告指南 → wiki/theory/
-│   ├── Product Research/             # 竞品调研数据 → wiki/practice/
-│   ├── note/                         # 运营笔记 → wiki/practice/
+│   ├── Product Research/             # 竞品调研数据 → wiki/pending/
+│   ├── note/                         # 运营笔记 → wiki/pending/
 │   └── assets/                       # PDF、图片等（不可解析，不参与 wiki）
 │
-├── wiki/                             # LLM 生成的维基页面
+├── wiki/                             # LLM 生成的维基页面（分层治理）
 │   ├── index.md                      # 分类索引（内容导向）
 │   ├── log.md                        # 操作日志（时间导向，append-only）
-│   ├── theory/                       # 基础知识层（官方文档编译）
+│   ├── theory/                       # 【核心区】基础知识层（官方文档编译，只读）
 │   │   └── *.md
-│   └── practice/                     # 运营方法论层（实战经验）
-│       └── *.md
+│   ├── practice/                     # 【标准区】运营方法论层（已审核，全员可见）
+│   │   └── *.md
+│   ├── pending/                      # 【待审区】待审核内容隔离缓冲区
+│   │   └── *.md (status: pending)
+│   └── archive/                      # 【存档区】已拒绝或过时的内容
+│       └── *.md (status: rejected/deprecated)
+│
+├── scripts/
+│   ├── wiki-lint.sh                  # 自动化合规审计脚本
+│   └── add-frontmatter.sh            # 批量添加元数据脚本
 │
 └── schema/
     ├── llm-wiki.md                   # LLM Wiki 模式说明
     └── AGENTS.md                     # 本文件，核心配置
 ```
 
-### 三层架构原则
+### 四层架构原则
 
 1. **Raw Sources（原始资料）**：不可变源文档，Agent 只读取不修改
-2. **Wiki（维基页面）**：Agent 完全拥有和维护的知识库，分 theory/practice 两层
-3. **Schema（本文件）**：配置文档，定义 Agent 的工作方式
+2. **Wiki（维基页面）**：Agent 完全拥有和维护的知识库，分四层：
+   - **Theory**：官方知识（管理员维护，仅读引用）
+   - **Practice**：已审核方法论（全员可见）
+   - **Pending**：待审核内容（隔离缓冲）
+   - **Archive**：已拒绝或过时（参考用）
+3. **Schema（本文件 AGENTS.md）**：核心配置文档，定义 Agent 的所有工作方式和权限规则
 
 ---
 
@@ -163,25 +175,357 @@ walmart ZS/
 **更新日期**：YYYY-MM-DD
 ```
 
-### Frontmatter（可选）
+### Frontmatter（必须）
 
-对于重要页面，可在顶部添加 YAML frontmatter：
+**每个 wiki 页面都必须包含以下 YAML frontmatter**，用于审核追踪和元数据管理：
 
 ```markdown
 ---
-title: 页面标题
-category: Advertising
-layer: theory          # theory 或 practice
-source: raw/xxx.md
-tags: [advertising, overview]
-created: 2026-04-13
-updated: 2026-04-25
+author: 创作者名字
+auditor: 审核人名字或"未审核"
+status: verified | pending | rejected | deprecated
+audit_date: YYYY-MM-DD 或 null
+tags: [tag1, tag2, tag3]
+rejection_reason: 仅当 status=rejected 时填写
 ---
+
+# 页面标题
+
+页面内容...
+```
+
+**字段说明**：
+
+| 字段 | 含义 | 示例 |
+|------|------|------|
+| `author` | 内容创作者 | 张三、Walmart 官方、Agent |
+| `auditor` | 最近审核人（未审核则为 null） | 李四、未审核 |
+| `status` | 内容当前状态 | `verified`（已验证）/ `pending`（待审）/ `rejected`（已拒）/ `deprecated`（已弃） |
+| `audit_date` | 通过审核的日期（未审核则为 null） | 2026-04-26 或 null |
+| `tags` | 内容分类标签 | [广告, 优化, 方法论] |
+| `rejection_reason` | 拒绝原因（仅 status=rejected 时填写） | "缺乏数据支撑" |
+
+**状态流转规则**：
+
+```
+pending (新摄入)
+    ↓
+verified (通过审核) → 进入 practice/
+    ↓
+deprecated (已弃用)
+    
+rejected (已拒绝) → 进入 archive/
+```
+
+**Agent 在摄入时的职责**：
+1. Theory 页面：设置 `author: Walmart 官方`, `status: verified`, `audit_date: 今天`
+2. Pending 页面：设置 `author: [源文件创建者]`, `status: pending`, `audit_date: null`, `auditor: null`
+3. 自动推断适当的 tags（基于内容分类）
+
+---
+
+## 审核与治理工作流（New in v2.0）
+
+### 背景与目标
+
+在原有"知识与方法论解耦"的基础上，新增**审核隔离机制**，确保：
+- 未审核的内容不污染标准区（practice/）
+- 所有决策有据可查（Frontmatter 元数据）
+- 冲突自动检测（避免信息混乱）
+- 审核流程可持续（循环迭代）
+
+### 四层隔离架构
+
+```
+【核心区】          【标准区】          【待审区】          【存档区】
+theory/            practice/          pending/          archive/
+(只读)             (全员可见)          (隔离缓冲)         (参考用)
+
+Official           Verified           Pending            Rejected/
+Knowledge          Methods            Content           Deprecated
+
+status:            status:            status:            status:
+verified           verified           pending            rejected/
+(Admin Only)       (After Review)      (New Ingest)      deprecated
+```
+
+### Audit Workflow 四步流程
+
+#### Step 1: Ingest（Agent 摄入）
+
+Agent 扫描 raw/ 并按规则路由。详见下方"标准 Ingest 流程"章节的完整步骤。
+
+**快速摄入清单**：
+- [ ] 根据来源目录判断目标位置（theory 还是 pending）
+- [ ] 添加完整的 Frontmatter（author, status, tags）
+- [ ] 对于 pending 内容，检查是否与 practice/ 现有内容冲突
+- [ ] 如发现冲突，在页面顶部添加 `> [!warning]` 冲突警告块
+- [ ] 更新 wiki/log.md 记录摄入操作
+- [ ] Theory 内容禁止引用 Pending（保持知识纯度）
+
+#### Step 2: Review（审核者初审）
+
+审核者打开 wiki/pending/ 页面，执行审核清单（见下方"标准 Ingest 流程"部分）。
+
+**快速审核清单**：
+- [ ] 内容质量（清晰性、准确性、可操作性）
+- [ ] 与 practice/ 的冲突检测
+- [ ] Frontmatter 完整性
+- [ ] 链接有效性
+
+**三种可能的结果**：
+1. ✅ **通过审核** → Step 3 (Approve)
+2. ⚠️ **发现冲突** → Step 2.1 (Resolve Conflicts)
+3. ❌ **拒绝审核** → Step 4 (Reject)
+
+#### Step 2.1: Resolve Conflicts（冲突协商）
+
+如发现与 practice/ 现有方法论的矛盾：
+
+```markdown
+> [!warning] 内容冲突检测
+> 
+> 本页与现有方法论存在潜在矛盾：
+>
+> **冲突 1**：出价策略
+> - [[pending/New-Strategy]]: 降价提升转化率
+> - [[practice/Existing-Method]]: 保持高价维持品牌
+>
+> **建议**：编辑 pending 页面，添加适用条件"仅适用于低端商品"
+```
+
+**处理流程**：
+1. 分析冲突原因（场景差异、数据不足、政策变更）
+2. 确定是否可通过编辑修改来协商
+3. 与原提交者沟通修改建议
+4. 修改后重新审核
+
+#### Step 3: Approve（通过审核）
+
+更新 Frontmatter，移动文件至 practice/：
+
+```yaml
+# 前
+---
+author: 张三
+auditor: null
+status: pending
+audit_date: null
+---
+
+# 后
+---
+author: 张三
+auditor: 李四              # ← 填入审核人名字
+status: verified          # ← 改为 verified
+audit_date: 2026-04-26   # ← 填入审核日期
+---
+```
+
+**操作步骤**：
+```bash
+# 1. 更新 Frontmatter
+# 2. 移动文件
+mv wiki/pending/filename.md wiki/practice/filename.md
+# 3. 更新 wiki/index.md（如需添加新分类）
+# 4. 更新 wiki/log.md（记录审核操作）
+```
+
+#### Step 4: Reject（拒绝审核）
+
+标记拒绝原因，移动文件至 archive/：
+
+```yaml
+---
+author: 张三
+auditor: 李四
+status: rejected                  # ← 改为 rejected
+audit_date: 2026-04-26
+rejection_reason: "缺乏数据支撑" # ← 填写拒绝原因
+---
+```
+
+**常见拒绝原因**：
+- 违反官方政策
+- 缺乏数据支撑
+- 与现有方法论无法协商的冲突
+- 内容过时或已被更新版本替代
+
+**操作步骤**：
+```bash
+# 1. 更新 Frontmatter
+# 2. 移动文件
+mv wiki/pending/filename.md wiki/archive/filename.md
+# 3. 更新 wiki/log.md（记录拒绝和原因）
+# 4. 可选：通知提交者拒绝原因
+```
+
+### 冲突检测规则
+
+Agent 在摄入时必须检测 pending 与 practice 的冲突。
+
+**冲突类型**：
+
+| 类型 | 示例 | 处理方式 |
+|------|------|----------|
+| 事实冲突 | A 说"降价有效"，B 说"降价亏损" | 标记为警告，让审核者判断是否适用于不同场景 |
+| 政策冲突 | 建议违反 Walmart 官方政策 | 自动拒绝（policy conflict） |
+| 命名冲突 | 同一概念用了不同术语 | 标记为冲突，统一术语 |
+
+**自动警告生成**：
+
+```python
+# 伪代码：Agent 应实现此逻辑
+if detect_potential_conflict(pending_page, practice_pages):
+    add_warning_block(pending_page, conflicts_found)
+    log_conflict(pending_page, conflicting_practice_pages)
+```
+
+### 引用规则（升级版）
+
+```
+Theory  ←→  Theory    ✅ 允许
+Theory  ←   Practice  ✅ 允许引用（反向引用）
+Theory  →   Practice  ❌ 禁止（保持知识纯度）
+
+Practice ←  Theory    ✅ 允许（主要）
+Practice ←  Practice  ✅ 允许
+Practice →  Pending   ❌ 禁止（仅引用已验证内容）
+
+Pending  ←  Theory    ✅ 允许
+Pending  ←  Practice  ✅ 允许
+Pending  →  Pending   ⚠️ 谨慎（审核时需检查双方状态）
+```
+
+### 日志维护规范（升级版）
+
+每次操作后，更新 wiki/log.md：
+
+```markdown
+## 2026-04-26
+
+| 操作 | 文件 | 操作者 | 备注 |
+|------|------|--------|------|
+| ingest | pending/New-SOP.md | Agent | 来源：raw/note/ |
+| verified | practice/Advertising--Method.md | 李四 | 合并自 pending/ |
+| rejected | archive/Old-Strategy.md | 李四 | 原因：违反官方政策 |
+```
+
+### 自动化工具
+
+#### 1. wiki-lint.sh（合规检查）
+
+```bash
+bash scripts/wiki-lint.sh
+
+# 检查项：
+✅ 越权修改检查（谁修改了 theory/）
+✅ 滞留检测（pending 中 >7 天的页面）
+✅ 非法引用检查（theory 不能引用 pending）
+✅ Frontmatter 完整性
+```
+
+#### 2. add-frontmatter.sh（元数据添加）
+
+已自动为所有 332 个页面添加 Frontmatter。
+
+---
+
+### 工作流场景示例
+
+#### 场景 1：同事提交运营笔记
+
+```
+1️⃣  同事在 raw/note/ 提交：team-feedback.txt
+     内容：关于广告优化的新发现
+
+2️⃣  Agent 扫描到新文件，执行 ingest：
+     - 转化为 Markdown
+     - 添加 Frontmatter（status: pending）
+     - 存入 wiki/pending/Advertising--New-Discovery.md
+     - 更新 wiki/log.md
+
+3️⃣  你查看 wiki/pending/，发现与 practice/ 中的现有方法论有冲突
+     - 在页面顶部添加 > [!warning] 冲突块
+     - 与原作者沟通
+
+4️⃣  冲突解决后，你通过审核：
+     - 更新 Frontmatter（auditor: 你的名字, status: verified）
+     - 移动文件至 wiki/practice/
+     - 更新 wiki/index.md 索引
+     - 更新 wiki/log.md
+
+5️⃣  wiki-lint 检查通过，合并至主分支
+```
+
+#### 场景 2：审核拒绝
+
+```
+1️⃣  Agent 摄入内容 → wiki/pending/
+
+2️⃣  你审核发现：
+     - 内容与官方政策矛盾
+     - 没有充分的数据支撑
+     - 过时的信息
+
+3️⃣  执行拒绝流程：
+     - 在 Frontmatter 中添加：
+       status: rejected
+       rejection_reason: "与官方政策相悖，需原作者提供更新的数据支撑"
+       auditor: 你的名字
+     - 移动至 wiki/archive/
+     - 更新 wiki/log.md
+
+4️⃣  Agent 或系统发送通知给原提交者（可选）
 ```
 
 ---
 
-## Ingest 工作流
+### 权限管理
+
+#### 谁可以做什么？
+
+| 操作 | Agent | 审核者 | 管理员 |
+|------|--------|----------|---------|
+| 摄入 (ingest) | ✅ | ✅ | ✅ |
+| 修改 theory/ | ❌ | ❌ | ✅ |
+| 编写 pending/ | ✅ | ✅ | ✅ |
+| 审核 & 移动 pending→practice | ❌ | ✅ | ✅ |
+| 管理 wiki/log.md | ✅ | ✅ | ✅ |
+| 运行 wiki-lint | ✅ | ✅ | ✅ |
+
+---
+
+### 常见问题 (FAQ)
+
+#### Q1: Agent 是否可以直接修改 wiki/practice/ 中的现有页面？
+
+**A**: 仅在以下情况允许：
+- 修复明显的语法/拼写错误
+- 更新过时的官方政策链接
+- 添加内部引用链接
+
+其他实质性修改应由审核者进行，确保知识的一致性。
+
+#### Q2: 如果 pending 页面已经过了 7 天还未审核怎么办？
+
+**A**: 
+- wiki-lint 会标记为 ⚠️ 警告
+- 审核者应优先处理这些滞留页面
+- 如认为不重要，主动标记为 rejected 并存档
+
+#### Q3: 如何处理跨越多个层级的更新？
+
+**A**: 例如官方文档（theory）更新了，需要同步到实践层（practice）：
+- 不要直接编辑 practice 页面
+- 创建新的 pending 页面，记录同步的变更
+- 通过审核流程移至 practice
+
+#### Q4: pending 页面可以相互引用吗？
+
+**A**: 可以，但应谨慎。审核时需检查被引用的 pending 页面是否也会被通过，避免孤立的引用。
+
+---
 
 ### 标准 Ingest 流程
 
@@ -196,16 +540,21 @@ updated: 2026-04-25
 - **更新现有页面**：如果源文件补充了已有页面的内容，追加或更新相关章节
 - **合并内容**：多个相关源文件合并到同一页面
 
-#### 3. 自动分类到 theory 或 practice
+#### 3. 自动分类到 theory/practice/pending
 
-**来源识别（优先）**：
+**来源识别与路由规则（核心规则，必须遵守）**：
 
-| 来源目录 | 目标目录 | 说明 |
-|----------|----------|------|
-| `raw/walmart guide/` | `wiki/theory/` | 官方帮助文档 |
-| `raw/walmart advertising guide/` | `wiki/theory/` | 官方广告指南 |
-| `raw/note/` | `wiki/practice/` | 运营笔记 |
-| `raw/Product Research/` | `wiki/practice/` | 竞品调研 |
+| 来源目录 | 目标目录 | 状态 | 说明 |
+|----------|----------|------|------|
+| `raw/walmart guide/` | `wiki/theory/` | verified | 官方帮助文档，直接发布 |
+| `raw/walmart advertising guide/` | `wiki/theory/` | verified | 官方广告指南，直接发布 |
+| `raw/note/` | `wiki/pending/` | pending | 运营笔记，需人工审核后才能进入 practice |
+| `raw/Product Research/` | `wiki/pending/` | pending | 竞品调研，需人工审核后才能进入 practice |
+
+**关键规则**：
+- ✅ 官方资料直接进入 theory/（标记 status: verified）
+- ❌ 非官方内容严禁直接进入 practice/（必须先进 pending/）
+- 🔄 所有 pending 内容需通过审核流程后才能移至 practice/
 
 **文件名判断（备选）**：
 - Practice 关键词：`methodology`、`sop`、`strategy`、`analysis`、`optimization`、`diagnostics`、`recovery`、`cold-start`、`case-study`
@@ -579,4 +928,4 @@ Agent 应定期检查 wiki 健康状况：
 
 ---
 
-**最后更新**：2026-04-25
+**最后更新**：2026-04-26（加入审核与治理工作流 v2.0）

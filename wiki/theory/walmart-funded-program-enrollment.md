@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Walmart-funded Incentives: Program Enrollment
 
 > 管理 Walmart-funded 激励计划的注册

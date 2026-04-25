@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品设置方法（Item Setup Methods）
 
 > 在 Walmart Marketplace 上架商品的 6 种方法详解。

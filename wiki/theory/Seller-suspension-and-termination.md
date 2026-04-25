@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 暂停与终止政策（Suppression, Suspension and Termination Policy）
 
 > 账户状态（抑制/暂停/终止）的定义、后果及合规要求。

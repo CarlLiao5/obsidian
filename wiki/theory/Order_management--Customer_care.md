@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 客户服务（Customer Care）
 
 > 客户消息响应政策、邮件模板创建与回复指南。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 卖家入驻与设置（WFS Seller Onboarding & Setup）
 
 > 从零开始启用 WFS 的完整 6 步流程：账户配置 → 商品上架 → 送仓 → 接收追踪。

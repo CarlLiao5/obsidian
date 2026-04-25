@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 发票追踪（Walmart 供应商）
 
 > Walmart 供应商如何在 High Radius 门户中追踪广告发票。

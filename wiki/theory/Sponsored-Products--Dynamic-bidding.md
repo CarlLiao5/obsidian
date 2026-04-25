@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 动态出价 (Dynamic Bidding)
 
 > 利用机器学习根据转化概率实时调整出价的优化出价策略。

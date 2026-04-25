@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Walmart Connect 产品条款
 
 > Walmart Connect 广告计划的产品条款，包括 AI/ML 工具、户外广告、店内音频、AXT 计划等条款。

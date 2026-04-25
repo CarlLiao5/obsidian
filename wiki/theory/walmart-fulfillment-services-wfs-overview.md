@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 服务概述 (Walmart Fulfillment Services Overview)
 
 > WFS 是沃尔玛提供的端到端仓储、配送、退货管理服务，类似 Amazon FBA。

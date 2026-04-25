@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Onsite Display 广告 (Walmart Connect - Onsite Display)
 
 > 在 Walmart.com 和 App 全站范围内投放的视觉展示广告，触达处于购物旅程各阶段的顾客。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 争议裁定申诉（Appeal a Dispute Decision）
 
 > 对沃尔玛订单/退货争议裁定不满的一次性申诉流程。

@@ -6,16 +6,30 @@
 
 ## 📚 知识库结构说明
 
-本知识库采用**知识与方法论解耦**架构，分为两层：
+本知识库采用**分层治理**架构，实现知识品质的可持续发展：
 
-| 层级 | 目录 | 来源 | 特点 |
-|------|------|------|------|
-| **基础知识 (Theory)** | `wiki/theory/` | Walmart 官方文档 | 纯陈述句，无主观建议，工具性 |
-| **运营方法论 (Practice)** | `wiki/practice/` | 运营笔记、实战经验 | 重点"如何操作"、"策略选择"、"效果验证" |
+| 层级 | 目录 | 来源 | 特点 | 访问权限 |
+|------|------|------|------|----------|
+| **核心知识区** | `wiki/theory/` | Walmart 官方文档 | 纯陈述句，无主观建议，工具性 | 只读（管理员维护） |
+| **标准方法论区** | `wiki/practice/` | 运营笔记→审核→通过 | 经审核的运营实践、策略、SOP | 全员可见 |
+| **待审区** | `wiki/pending/` | 新摄入的心得、SOP、研究 | 隔离缓冲区，待审核 | 仅提交者和审核者可见 |
+| **存档区** | `wiki/archive/` | 被拒绝或已弃用的内容 | 已驳回或过时的页面 | 参考用途 |
 
 **引用规则**：
 - ✅ Practice 可以引用 Theory（使用嵌入语法 `![[theory/...]]`）
-- ❌ Theory 禁止引用 Practice（保持知识纯度）
+- ✅ Pending 可以引用 Theory 和 Practice（但会被审核）
+- ❌ Theory 禁止引用 Practice / Pending（保持知识纯度）
+- ❌ Practice 禁止引用 Pending（仅引用已审核的内容）
+
+**工作流**：
+```
+同事提交心得 → Agent 整理至 pending/（隔离）
+    ↓
+你（或资深运营）通过 PR 查看 pending/（加入审核元数据）
+    ↓
+审核通过 → 移动至 practice/（全员可见）
+审核拒绝 → 标记 rejected，移至 archive/（留存记录）
+```
 
 ---
 
@@ -562,11 +576,46 @@
 
 ---
 
+## 治理机制
+
+### 页面元数据（Frontmatter 规范）
+
+每一条方法论都必须包含审核元数据，确保有据可查：
+
+```yaml
+---
+author: [提交人姓名]
+auditor: [审核人姓名/未审核]
+status: pending | verified | deprecated | rejected
+audit_date: YYYY-MM-DD
+tags: [tag1, tag2]
+---
+```
+
+- **status 流转**：`pending` → `verified` → 或 `deprecated` / `rejected`
+- **audit_date**：首次通过审核的日期（用于追踪政策变更历史）
+- **author**：content 的创作者（用于追责和沟通）
+- **auditor**：最近一次审核的执行人
+
+### 审核流程
+
+1. **引入（Agent 操作）**：Agent 将 raw/ 非官方资料转化为 Markdown，自动存入 `wiki/pending/`，设置 `status: pending`
+2. **初审（你的操作）**：检查 pending/ 内容，对比与 practice/ 现有内容，标记冲突
+3. **通过（你的操作）**：更新 Frontmatter（`auditor`、`audit_date`、`status: verified`），物理移动至 practice/
+4. **拒绝（你的操作）**：在 Frontmatter 加入拒绝原因，移至 archive/，保持 `status: rejected`
+
+### 自动合规检查
+
+运行 `wiki-lint` 脚本检查：
+- ✅ wiki/theory/ 是否被非管理员修改（越权检查）
+- ✅ wiki/pending/ 中是否有超过 7 天未审核的页面（滞留检查）
+- ✅ wiki/theory/ 页面是否非法引用 wiki/pending/（引用合法性）
+
 ## 关于本知识库
 
 本知识库按 LLM Wiki 规范维护：
 - **源文件**：`raw/`（Immutable，不可修改）
-- **Wiki 页面**：`wiki/`（LLM 完全维护）
+- **Wiki 页面**：`wiki/`（分层治理维护）
 - **日志**：`wiki/log.md`（增量记录）
 - **交叉链接**：所有页面使用 `[[双向链接]]` 格式互联
 
@@ -576,3 +625,4 @@
 - Wiki 页面总数：**332 个**
 - 系统页面：**2 个**（index.md、log.md）
 - 知识页面：**330 个**
+- 待审页面：**0 个**

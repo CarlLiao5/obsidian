@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 广告定向政策与数据使用规范
 
 > Walmart Connect 广告定向规则、第三方标签授权、流量政策与个人信息收集要求。

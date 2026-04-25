@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 卖家自配送服务子分类
 
 > [[theory/Seller_Fulfillment_Services]] 的详细子分类索引。

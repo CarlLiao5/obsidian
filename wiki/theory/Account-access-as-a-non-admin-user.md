@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 非管理员用户访问管理
 
 > 非管理员用户如何申请或升级对组织和账户的访问权限，查看请求状态。

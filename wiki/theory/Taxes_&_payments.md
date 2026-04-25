@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 税务与支付 (Taxes & Payments)
 
 > Walmart Marketplace 账单、支付、税务合规知识库。

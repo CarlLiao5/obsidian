@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 个性化推荐总览 (Personalized Recommendations Overview)
 
 > Walmart Connect 基于 AI 提供的个性化优化建议总览。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Promotional Pricing: Set Up via the Promotions Dashboard
 
 > 使用 Promotions 页面创建和管理促销

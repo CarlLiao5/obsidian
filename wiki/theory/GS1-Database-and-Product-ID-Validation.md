@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # GS1 数据库与商品 ID 交叉验证
 
 > 解释沃尔玛如何通过 GS1 数据库验证商品 ID（GTIN/UPC/EAN/ISBN）的真实性，以及卖家如何在 GS1 官网注册、查询和管理商品 ID。

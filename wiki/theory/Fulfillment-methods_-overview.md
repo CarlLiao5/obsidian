@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 配送方式概述（Fulfillment Methods Overview）
 
 > Walmart Marketplace 支持的三种配送方式：卖家自配送（SFS）、WFS 仓储配送、第三方服务商（Deliverr/ShipBob）。

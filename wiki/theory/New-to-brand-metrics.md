@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Sponsored Products 新品牌指标（New-to-Brand Metrics）
 
 > 新品牌指标帮助广告主评估广告带来的新客获取效果，识别品牌转化和品牌留存的机会。

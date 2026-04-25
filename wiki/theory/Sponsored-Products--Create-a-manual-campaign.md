@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 创建手动活动 (Create a Manual Campaign)
 
 > 在 Walmart Connect Ad Center 中创建 Sponsored Products 手动广告活动的完整步骤。

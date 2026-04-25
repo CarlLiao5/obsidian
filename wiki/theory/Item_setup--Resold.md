@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 转售商品（Resold）
 
 > 二手/翻新/开封商品的上架设置：Restored、Pre-Owned、Open Box、Remanufactured 等条件类型。

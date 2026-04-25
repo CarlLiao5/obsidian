@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS API 集成（API Calls for WFS）
 
 > 通过 Walmart Marketplace API 自动化 WFS 全流程——商品管理、库存、入库订单等。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Step 3 — 添加出价倍数 (Add Bid Multipliers)
 
 > 使用出价倍数（Bid Multipliers）优化广告在特定位置和平台上的竞争力。

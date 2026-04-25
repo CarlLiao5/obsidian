@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 广告政策 — 禁止内容与商品
 
 > 所有通过 Walmart Connect 购买的广告必须遵守的禁止内容和商品规定。

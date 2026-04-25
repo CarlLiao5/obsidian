@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 增长工具（WFS Growth Opportunities）
 
 > 通过沃尔玛资助的计划、激励措施和 assortment growth 工具提升 WFS 商品表现。

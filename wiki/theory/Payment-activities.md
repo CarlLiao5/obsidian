@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 支付活动（Payment Activities）
 
 > 支付报表中可能出现的资金延迟情况：支付储备、支付冻结、支付暂停。

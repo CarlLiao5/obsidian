@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 付款处理（Payment Processing）
 
 > Walmart Marketplace 的收款方式、结算周期与付款服务商配置。

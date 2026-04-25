@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Retrieve Form 1099-K
 
 > 了解 Form 1099-K 的资格标准以及如何获取表格

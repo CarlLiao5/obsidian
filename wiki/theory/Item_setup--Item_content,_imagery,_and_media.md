@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品内容、图片和媒体（Item Content, Imagery & Media）
 
 > 商品详情页内容优化：图片要求、属性分类、关键词优化、富媒体上传。

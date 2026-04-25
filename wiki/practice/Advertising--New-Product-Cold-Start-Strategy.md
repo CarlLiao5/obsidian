@@ -1,3 +1,11 @@
+---
+author: 运营团队
+auditor: 待审核
+status: pending
+audit_date: null
+tags: [运营实践, 待审核]
+---
+
 # 新品冷启动广告策略
 
 > 新品期（1-4 周）的广告投放完整指南。重点不在 ACOS，而在积累初始数据、评论和销量。

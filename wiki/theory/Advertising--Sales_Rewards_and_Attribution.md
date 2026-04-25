@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 销售奖励与归因 (Sales Rewards and Attribution)
 
 > 通过外部营销渠道产生的 Walmart 销售，可获得最高 10% 佣金返还。

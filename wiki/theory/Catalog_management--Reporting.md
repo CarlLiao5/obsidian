@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Catalog Management: Reporting
 
 > 目录管理报告 - 生成 Buy Box、商品、促销及消费者洞察报告

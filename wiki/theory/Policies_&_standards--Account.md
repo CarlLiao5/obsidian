@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 账户政策（Policies & Standards: Account）
 
 > 沃尔玛卖家账户相关政策的完整子分类索引。

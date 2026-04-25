@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 添加 ACH 银行账户（Billing Methods: Add ACH U.S. Bank）
 
 > 在 Seller Center 中添加美国银行账户作为 WFS 和其他卖家服务的支付方式。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 税务与支付故障排查（Taxes & Payments Troubleshooting）
 
 > 解决 Walmart Marketplace 税务和支付相关问题，包括 Referral Fee 争议和账单支付问题。

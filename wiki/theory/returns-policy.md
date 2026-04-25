@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 退货政策 (Seller-Fulfilled Returns Policy)
 
 > 卖家自配送（FBM）订单的退货处理规则、Keep It 规则、退货中心设置等。

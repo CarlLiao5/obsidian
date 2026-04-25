@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 全部关键词 (All Keywords)
 
 > 在 Walmart Connect Ad Center 中集中管理和优化手动 Sponsored Products 活动的关键词。

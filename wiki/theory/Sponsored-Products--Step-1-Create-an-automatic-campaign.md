@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Step 1 — 创建自动活动 (Create an Automatic Campaign)
 
 > 在 Walmart Connect Ad Center 中创建 Sponsored Products 自动广告活动的完整步骤。

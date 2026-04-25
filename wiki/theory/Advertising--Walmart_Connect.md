@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Walmart Connect — 站内广告解决方案
 
 > 通过 Walmart Connect 广告平台在 Walmart.com 和 App 内投放的站内广告，包括 Sponsored Search、展示广告和品牌店铺。

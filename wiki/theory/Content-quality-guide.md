@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Content Quality Guide 内容质量指南
 
 > 高质量商品 listing 是广告效率的基础。通过优化商品内容质量提升可发现度、增加流量并获得回头客。

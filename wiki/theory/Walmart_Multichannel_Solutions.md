@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 多渠道解决方案（Walmart Multichannel Solutions）
 
 > 使用 WFS 库存同时为 Walmart.com 和 Amazon、eBay、Temu 等多渠道订单履约，统一库存管理。

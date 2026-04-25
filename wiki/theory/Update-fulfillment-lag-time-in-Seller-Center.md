@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 更新配送延迟时间（Update Fulfillment Lag Time）
 
 > 为特定 SKU 设置备货延迟天数（超过 2 天备货须申请豁免）。

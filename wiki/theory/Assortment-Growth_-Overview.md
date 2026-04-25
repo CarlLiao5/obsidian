@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Assortment Growth: Customer Favorites
 
 > 使用 Assortment Growth 仪表板识别和评估高需求商品和品牌

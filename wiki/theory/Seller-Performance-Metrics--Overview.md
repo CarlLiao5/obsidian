@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Seller Performance Metrics Overview
 
 > 沃尔玛卖家绩效指标综合概览。整合 OTD / VTR / ODR / TRTR 四大核心指标的定义、计算方式、达标标准与优化路径。

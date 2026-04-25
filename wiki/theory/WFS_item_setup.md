@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 商品设置
 
 > 将商品转换为 WFS 履约的完整指南，包括选品、转换、危险品、多箱商品设置。

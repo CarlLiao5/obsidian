@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 订单管理 (Order Management)
 
 > 订单生命周期管理全知识库，包含客户服务、退换货和售后问题处理。

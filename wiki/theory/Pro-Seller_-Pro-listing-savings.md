@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Pro Seller: Pro Listing Savings
 
 > 符合条件的 Pro Seller 卖家可获得高达 10% Referral Fee 折扣

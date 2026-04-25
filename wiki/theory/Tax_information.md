@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 税务信息（Tax Information）
 
 > 销售税代收代缴、商品费、产品税码、1099-K 表格的完整说明。

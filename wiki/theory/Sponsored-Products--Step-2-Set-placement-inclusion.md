@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Step 2 — 设置展示位置 (Set Placement Inclusion)
 
 > 手动 Sponsored Products 活动的展示位置（Placement）配置。

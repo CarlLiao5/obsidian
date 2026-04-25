@@ -1,3 +1,11 @@
+---
+author: 运营团队
+auditor: 待审核
+status: pending
+audit_date: null
+tags: [运营实践, 待审核]
+---
+
 # 跨境电商算法转型：亚马逊 COSMO vs 沃尔玛第二竞价
 
 > 平台流量从"价高者得"转向"价值匹配"，亚马逊和沃尔玛的广告算法正在走向同一条路。

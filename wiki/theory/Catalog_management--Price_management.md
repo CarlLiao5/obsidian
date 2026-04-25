@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 价格管理（Price Management）
 
 > 定价规则、智能调价工具、Buy Box 机制与价格报告的完整指南。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 提交 Advertiser Help 工单
 
 > 在 Walmart Connect Ad Center 遇到账户或活动问题时，通过 Advertising Help 门户提交工单获取支持。

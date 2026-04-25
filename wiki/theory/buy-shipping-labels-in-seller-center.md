@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 购买配送标签（Buy Shipping Labels in Seller Center）
 
 > 通过 Ship with Walmart 在 Seller Center 中购买折扣配送标签的完整流程。

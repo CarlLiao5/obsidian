@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 费用（WFS Fees）
 
 > WFS 履约费、仓储费、Prep 服务费、退货处理费的完整费率表。

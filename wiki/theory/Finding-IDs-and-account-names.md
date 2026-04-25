@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 查找广告账户 ID 和名称
 
 > 在 Walmart Connect Ad Center 中查找 Advertiser ID、Campaign ID 和 Account Name 的操作指南。

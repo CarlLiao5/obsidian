@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 简化配送设置（Simplified Shipping Settings）
 
 > 使用实时承运商数据自动计算配送时效，并为卖家自配送商品设置标准化配送规则。

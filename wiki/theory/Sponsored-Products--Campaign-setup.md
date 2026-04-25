@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Sponsored Products — 活动设置完整指南
 
 > Sponsored Products 广告活动创建与管理完整流程。

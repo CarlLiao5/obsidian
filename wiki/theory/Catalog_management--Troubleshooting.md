@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Catalog Management: Troubleshooting
 
 > 目录管理故障排查 - 解决商品未发布、内容错误和价格匹配问题

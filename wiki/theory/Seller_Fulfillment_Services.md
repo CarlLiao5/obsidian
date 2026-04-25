@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 卖家配送服务 (Seller Fulfillment Services)
 
 > 卖家自配送（FBM）全流程知识库，包含配送设置、承运商配置、运费模板和 Ship with Walmart。

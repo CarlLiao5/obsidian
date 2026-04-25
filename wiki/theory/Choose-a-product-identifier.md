@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品识别符政策（Choose a Product Identifier）
 
 > GTIN / UPC / ISBN / EAN 四大类商品 ID 的要求、规则与常见问题。

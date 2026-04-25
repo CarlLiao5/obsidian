@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 取消订单（Cancel an Order）
 
 > 订单状态管理中取消订单的完整流程、取消率要求与常见问题处理。

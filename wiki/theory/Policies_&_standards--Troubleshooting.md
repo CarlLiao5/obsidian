@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 政策故障排查（Policies Troubleshooting）
 
 > 账户暂停申诉、争议决策申诉等政策相关问题的解决流程。

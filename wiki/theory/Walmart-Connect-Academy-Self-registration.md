@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Walmart Connect Academy 自注册
 
 > Walmart Connect Academy 是 Walmart 广告官方学习平台，提供付费课程和认证路径。

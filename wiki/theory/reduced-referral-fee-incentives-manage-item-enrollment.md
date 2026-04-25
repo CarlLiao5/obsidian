@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Reduced Referral Fee Incentives: Manage Item Enrollment
 
 > 管理 Reduced Referral Fee 激励计划的商品注册

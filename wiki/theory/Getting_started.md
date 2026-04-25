@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 入门指引 (Getting Started)
 
 > 新卖家快速上手 Walmart Marketplace 的完整路径。

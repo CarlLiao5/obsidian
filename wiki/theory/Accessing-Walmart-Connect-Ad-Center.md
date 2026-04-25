@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 访问 Walmart Connect Ad Center
 
 > 访问 Walmart Connect 广告平台，包括新广告主入驻和现有广告主登录。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # SEM 活动设置 (Search Engine Marketing - Campaign Setup)
 
 > 在 Seller Center 中设置 Custom 或 Quick start SEM 广告活动的完整步骤。

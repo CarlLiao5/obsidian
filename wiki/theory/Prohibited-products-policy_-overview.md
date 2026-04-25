@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 禁售商品政策（Prohibited Products Policy Overview）
 
 > Walmart Marketplace 禁止销售和需要预先批准的商品类别完整清单。

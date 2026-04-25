@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 入门指南（Getting Started with WFS）
 
 > 从零开始使用 Walmart Fulfillment Services 的完整指南，包括设置、配置和运营要点。

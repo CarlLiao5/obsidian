@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Add multiple items: Import your supplier catalog
 
 > 将您的 Supplier One 商品导入 Marketplace 目录

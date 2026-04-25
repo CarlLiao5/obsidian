@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 申请 GTIN 豁免（Request a GTIN Exemption）
 
 > 为没有商品识别符（GTIN/UPC）的自有品牌或手工商品申请上架豁免。

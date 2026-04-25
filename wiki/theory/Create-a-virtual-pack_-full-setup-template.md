@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Create a Virtual Pack: Full Setup Template
 
 > 使用虚拟包装模板批量设置虚拟包装商品

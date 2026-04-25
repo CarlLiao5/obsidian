@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Product Detail Page: Keyword Optimization
 
 > 通过关键词优化提升搜索排名和有机流量

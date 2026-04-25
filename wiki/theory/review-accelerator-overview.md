@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 评论加速器（Review Accelerator）概述
 
 > 通过 Post-Purchase Reviews 和 Recognized Reviewer 两个子项目，帮助卖家积累真实好评。

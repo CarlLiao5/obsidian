@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 广告创意与编辑标准
 
 > Walmart Connect 广告创意内容的合规要求，包括广告文案、图片、视频及促销活动的完整规范。

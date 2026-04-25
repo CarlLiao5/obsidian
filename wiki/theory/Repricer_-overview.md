@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 智能调价（Repricer）概述
 
 > Walmart 提供的自动化价格调整工具，帮助卖家在竞争中保持价格优势。

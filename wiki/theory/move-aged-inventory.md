@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 清理老化库存（Move Aged Inventory）
 
 > 避免 WFS 长期仓储费（超过 365 天）的策略，以及清理或优化老化库存的方法。

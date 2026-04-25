@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Retrieve credentials for your return shipping carrier account
 
 > 获取退货承运人账户的 API 凭证，以便在 Seller Center 中创建退货运输标签

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 送仓至 WFS（Shipping to WFS）
 
 > 将库存从卖家仓库发送至 Walmart 配送中心的完整流程。

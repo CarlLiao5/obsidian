@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 管理重复商品（Manage Duplicate Listings）
 
 > 在 Seller Center 中识别、处理和预防重复商品条目的完整流程。

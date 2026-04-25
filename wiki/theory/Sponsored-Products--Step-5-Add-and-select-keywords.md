@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Step 5 — 添加关键词并设置出价 (Add and Select Keywords)
 
 > 为手动 Sponsored Products 广告组添加关键词、选择匹配类型并设置出价。

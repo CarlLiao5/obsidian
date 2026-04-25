@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 支付报表与交易（Payment Statements and Transactions）
 
 > 在 Seller Center 中查看支付汇总和交易详情，支持 90 天内订单查询。

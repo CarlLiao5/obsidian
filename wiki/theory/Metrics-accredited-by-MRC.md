@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Metrics Accredited by the Media Rating Council (MRC)
 
 > 本页面涵盖：Walmart Connect Sponsored Search 点击、展示、CTR 指标的 MRC 认证信息及无效流量报告查阅指南。

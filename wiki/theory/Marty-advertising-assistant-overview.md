@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Marty 广告助手概述（Beta）
 
 > AI 驱动的对话式广告助手，帮助简化活动管理，提供实时警报、推荐和增强报告。

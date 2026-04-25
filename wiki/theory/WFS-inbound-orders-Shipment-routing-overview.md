@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS shipping plans: Shipment routing overview
 
 > 了解如何将库存路由到正确的WFS履约中心

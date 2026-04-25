@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 292.5
   },
   "right": {
     "id": "d16ae3135c9d2116",
@@ -176,7 +176,7 @@
             }
           },
           {
-            "id": "b9d3fdcddd5a31a4",
+            "id": "84b07e9423ab5d6f",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -208,18 +208,40 @@
   },
   "active": "0c13e0f37a818a6e",
   "lastOpenFiles": [
-    "raw/111.md",
+    "schema/llm-wiki.md",
+    "wiki/index.md",
     "schema/AGENTS.md",
+    "IMPLEMENTATION-SUMMARY.md",
+    "schema/AGENTS.md.tmp.576.1777139814404",
+    "schema/AGENTS.md.tmp.576.1777139798301",
+    "schema/AGENTS.md.tmp.576.1777139746702",
+    "schema/AGENTS.md.tmp.576.1777139738699",
+    "wiki/AUDIT-WORKFLOW.md",
+    "wiki/GOVERNANCE-OVERVIEW.md",
+    "schema/AGENTS.md.tmp.576.1777139483389",
+    "CLAUDE.md",
+    "schema/AGENTS.md.tmp.576.1777139196151",
+    "schema/AGENTS.md.tmp.576.1777139190641",
+    "schema/AGENTS.md.tmp.576.1777139166329",
+    "schema/AGENTS.md.tmp.576.1777139144111",
+    "IMPLEMENTATION-SUMMARY.md.tmp.576.1777138978745",
+    "wiki/log.md",
+    "raw/note/2026-04-25.md",
+    "raw/note/2026-04-22.md",
+    "raw/note/2026-04-21.md",
+    "raw/note/2026-04-17.md",
+    "raw/note/2026-04-16.md",
+    "raw/note/2026-04-15.md",
+    "raw/note/2026-04-14.md",
+    "raw/note/跨境电商要变天了？亚马逊和沃尔玛为何在做同一件事？.md",
+    "raw/111.md",
     "claudian claude code配置.md",
     "项目概述.md",
-    "Onboarding-Guide--New-Employee-Training.pdf",
     "Pasted image 20260422172918.png",
     "Pasted image 20260422172931.png",
     "WFS货件差异索赔SOP.md",
     "walmart-connect-advertising-solutions-overview.md",
-    "raw/note/跨境电商要变天了？亚马逊和沃尔玛为何在做同一件事？.md",
     "raw/note/car jack2026-04-16 14.25.34.univer.md",
-    "Excel 2026-04-21 10.18.55.univer.md",
-    "schema/llm-wiki.md"
+    "Excel 2026-04-21 10.18.55.univer.md"
   ]
 }

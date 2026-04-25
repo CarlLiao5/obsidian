@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Campaign 最佳实践指南
 
 > 了解如何优化 Sponsored Products 活动效果，包括定义活动目标、创建有效活动和理解数据。

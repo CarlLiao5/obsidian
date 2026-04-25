@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 目标 ROAS 出价 (Target ROAS Bidding)
 
 > 使用 AI 算法自动优化以达到设定 ROAS 目标的智能出价策略。

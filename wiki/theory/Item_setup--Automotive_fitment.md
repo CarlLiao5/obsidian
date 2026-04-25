@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 汽车配件适配（Automotive Fitment）
 
 > 通过 ACES/PIES 标准文件，为汽车配件商品匹配特定车型，提升搜索可见性和转化率。

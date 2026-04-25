@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Troubleshoot WFS inbound order issues
 
 > WFS 货件计划的常见错误及解决方法

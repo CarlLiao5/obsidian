@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Ship with Walmart（沃尔玛代发标签服务）
 
 > 通过 Ship with Walmart（SWW）享受 USPS、FedEx、UPS 折扣运费，并获得配送问题保护。

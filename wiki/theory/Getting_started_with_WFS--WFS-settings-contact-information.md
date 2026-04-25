@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 账户联系人（WFS Account Manager Contacts）
 
 > 在 Seller Center 中管理 WFS 账户联系人信息，确保沃尔玛能及时与你沟通。

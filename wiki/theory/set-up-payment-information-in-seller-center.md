@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Set up payout information in Seller Center
 
 > 设置 Marketplace Wallet 或第三方支付处理器

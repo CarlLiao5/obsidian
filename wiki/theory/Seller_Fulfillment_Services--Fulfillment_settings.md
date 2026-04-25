@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 履约设置（Fulfillment Settings）
 
 > 履约设置用于配置延迟发货时间豁免、运营时间、周末配送和第三方仓储合作。

@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 退款与退货（Returns & Refunds）
 
 > 退货政策、退款处理、Keep It 规则、Item-Level 退货规则完整指南。

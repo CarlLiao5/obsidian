@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Search Engine Marketing (SEM)
 
 > 搜索营销 - 在 Google 上投放沃尔玛产品广告的付费推广工具

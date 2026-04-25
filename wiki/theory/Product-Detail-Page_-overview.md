@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 商品详情页政策（Product Detail Page Policy）
 
 > Walmart 商品页面的内容标准规范，涵盖标题、描述、关键特性、图片等所有展示内容。

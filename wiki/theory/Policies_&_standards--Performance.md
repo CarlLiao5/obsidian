@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 绩效标准（Performance）
 
 > 卖家绩效仪表盘：退货率、未收到率、负面反馈率、承运商表现、区域表现。

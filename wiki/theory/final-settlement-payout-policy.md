@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 最终结算支付政策（Final Settlement Payout Policy）
 
 > 账户关闭或终止后，最终余额的结算政策与扣款规则。

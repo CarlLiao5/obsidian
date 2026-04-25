@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 如何最大化商品详情页（Item Pages）
 
 > 广告引流是第一步，商品详情页是决定转化率的关键。高质量详情页可显著提升广告投资回报率。

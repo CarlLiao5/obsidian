@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Add a Partner Fulfillment Center in Seller Center
 
 > 在 Seller Center 中添加合作伙伴履约中心

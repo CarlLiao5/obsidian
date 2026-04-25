@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 订单与退货（Orders & Returns）
 
 > 订单履约、客户服务、退货处理及争议解决的政策与标准。

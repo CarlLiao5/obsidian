@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 配送与履约（Shipping & Fulfillment）
 
 > 卖家自配送政策：配送时效、追踪要求、包装规范、承运商选择。

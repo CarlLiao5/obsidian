@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Success Hub: Get more reviews with incentives
 
 > 使用激励措施为符合条件的商品生成更多评论

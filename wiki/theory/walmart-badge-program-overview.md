@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Walmart+ badge program overview
 
 > 为您的自配送商品添加 Walmart+ 徽章，向客户展示快速可靠的配送服务

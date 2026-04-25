@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 补货提醒（Restock Your Seller-Fulfilled Inventory）
 
 > Success Hub 中提供的自配送库存补货建议，帮助避免缺货。

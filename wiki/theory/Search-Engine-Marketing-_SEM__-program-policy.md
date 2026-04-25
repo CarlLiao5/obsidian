@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # SEM 项目政策 (Search Engine Marketing - Program Policy)
 
 > SEM 广告项目的合规要求、禁止行为与违规后果。

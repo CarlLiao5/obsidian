@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 退货规则设置（WFS Settings: Customize Return Rules）
 
 > 自定义 WFS 退货处理方式：Restock / Return to Me / Dispose。

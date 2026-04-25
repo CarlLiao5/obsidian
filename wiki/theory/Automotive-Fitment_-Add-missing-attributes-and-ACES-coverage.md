@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # Automotive Fitment: Add Missing Attributes and ACES Coverage
 
 > 为汽车配件商品添加适配属性和 ACES 车辆兼容性数据

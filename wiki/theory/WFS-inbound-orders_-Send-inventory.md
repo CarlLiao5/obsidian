@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS shipping plans: Send domestic inventory
 
 > 创建货件计划并跟踪运往 WFS 的库存进度

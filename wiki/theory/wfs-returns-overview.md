@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # WFS 退货（WFS Returns Overview）
 
 > WFS 订单退货的处理流程、费用与退款规则。

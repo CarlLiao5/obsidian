@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 成功中心（Success Hub）
 
 > 每日更新的 13 种 AI 驱动的个性化增长建议工具。

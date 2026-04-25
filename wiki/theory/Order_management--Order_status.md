@@ -1,3 +1,11 @@
+---
+author: Walmart 官方文档
+auditor: 知识库管理员
+status: verified
+audit_date: 2026-04-26
+tags: [官方文档, 知识库]
+---
+
 # 订单状态管理（Order Status）
 
 > 订单从确认到发货的全流程管理，包括追踪号更新、拆单、暂停销售。
