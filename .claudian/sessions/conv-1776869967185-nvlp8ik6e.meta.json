@@ -1,11 +1,11 @@
 {
   "id": "conv-1776869967185-nvlp8ik6e",
   "providerId": "claude",
-  "title": "你好",
+  "title": "1",
   "titleGenerationStatus": "failed",
   "createdAt": 1776869967187,
-  "updatedAt": 1776956165498,
-  "lastResponseAt": 1776956165498,
+  "updatedAt": 1777135059388,
+  "lastResponseAt": 1777134886668,
   "sessionId": "38fd35a2-0201-4248-b824-e81d755e0f46",
   "providerState": {
     "providerSessionId": "38fd35a2-0201-4248-b824-e81d755e0f46"

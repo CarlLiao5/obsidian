@@ -27,12 +27,12 @@
       "cliPathsByHost": {},
       "loadUserSettings": false,
       "enableChrome": false,
-      "enableBangBash": true,
+      "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "customModels": "claude-haiku-4-5-20251001",
       "lastModel": "sonnet",
-      "environmentVariables": "PATH=C:\\Users\\Administrator\\.local\\bin;C:\\Program Files\\nodejs\\;E:\\Git\\bin;E:\\Git\\usr\\bin;%PATH%\nCLAUDE_CODE_GIT_BASH_PATH=E:\\Git\\bin\\bash.exe\nANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top\nANTHROPIC_API_KEY=sk-tp8FiOCiJhTUTQHAc6PV3GMxyFXZ7p7x6BcALhcKJ1BCMn1i",
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top\nANTHROPIC_API_KEY=sk-tp8FiOCiJhTUTQHAc6PV3GMxyFXZ7p7x6BcALhcKJ1BCMn1i",
       "environmentHash": "ANTHROPIC_BASE_URL=https://cc1.zhihuiapi.top"
     },
     "codex": {

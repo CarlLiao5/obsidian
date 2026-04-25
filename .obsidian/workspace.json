@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "schema/AGENTS.md",
+                "file": "raw/111.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "111"
             }
           }
         ]
@@ -206,8 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c13e0f37a818a6e",
+  "active": "715cb5bcf940ed9a",
   "lastOpenFiles": [
+    "schema/AGENTS.md",
+    "raw/111.md",
     "claudian claude code配置.md",
     "项目概述.md",
     "Onboarding-Guide--New-Employee-Training.pdf",
@@ -218,7 +220,6 @@
     "raw/note/跨境电商要变天了？亚马逊和沃尔玛为何在做同一件事？.md",
     "raw/note/car jack2026-04-16 14.25.34.univer.md",
     "Excel 2026-04-21 10.18.55.univer.md",
-    "schema/AGENTS.md",
     "schema/llm-wiki.md"
   ]
 }
