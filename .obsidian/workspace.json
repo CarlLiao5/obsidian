@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excel 2026-04-21 10.18.55.univer.md",
+                "file": "schema/AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Excel 2026-04-21 10.18.55.univer"
+              "title": "AGENTS"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "schema/AGENTS.md",
+                "file": "Onboarding-Guide--New-Employee-Training.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AGENTS 的大纲"
+              "title": "Onboarding-Guide--New-Employee-Training 的大纲"
             }
           },
           {
@@ -174,13 +174,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "b9d3fdcddd5a31a4",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 597.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,10 +208,16 @@
   },
   "active": "e62d095c11b2b47f",
   "lastOpenFiles": [
+    "claudian claude code配置.md",
+    "项目概述.md",
     "Onboarding-Guide--New-Employee-Training.pdf",
     "Pasted image 20260422172918.png",
-    "walmart-connect-advertising-solutions-overview.md",
+    "Pasted image 20260422172931.png",
     "WFS货件差异索赔SOP.md",
+    "walmart-connect-advertising-solutions-overview.md",
+    "raw/note/跨境电商要变天了？亚马逊和沃尔玛为何在做同一件事？.md",
+    "raw/note/car jack2026-04-16 14.25.34.univer.md",
+    "Excel 2026-04-21 10.18.55.univer.md",
     "schema/AGENTS.md",
     "schema/llm-wiki.md"
   ]
