@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -206,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e62d095c11b2b47f",
+  "active": "0c13e0f37a818a6e",
   "lastOpenFiles": [
     "claudian claude code配置.md",
     "项目概述.md",
