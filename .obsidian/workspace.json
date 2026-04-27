@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "schema/AGENTS.md",
+                "file": "IMPLEMENTATION-SUMMARY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "IMPLEMENTATION-SUMMARY"
             }
           }
         ]
@@ -181,8 +181,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -202,15 +202,15 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian42-brat:BRAT": false,
-      "claudian:Open Claudian": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "0c13e0f37a818a6e",
+  "active": "e62d095c11b2b47f",
   "lastOpenFiles": [
+    "schema/AGENTS.md",
     "schema/llm-wiki.md",
     "wiki/index.md",
-    "schema/AGENTS.md",
     "IMPLEMENTATION-SUMMARY.md",
     "schema/AGENTS.md.tmp.576.1777139814404",
     "schema/AGENTS.md.tmp.576.1777139798301",
